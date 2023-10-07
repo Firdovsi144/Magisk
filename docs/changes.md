@@ -1,24 +1,24 @@
-# Magisk Changelog
+#              Магский сменный журнал            
 
-### v26.3
+###                v26.3              
 
-- [General] Fix device information detection script
-- [General] Update BusyBox to 1.36.1
-- [General] Update toolchain that produces broken arm32 executables
-- [App] Fix root service unable to bind on OnePlus devices
+- [Общие]               Исправить для обнаружения информации устройства             
+- [Общие]                Обновление BusyBox до 1.36.1              
+- [Общие]                    Обновление инструментариев, которая производит сломанные исполняемые файлы арм32                  
+- [Приложение]                    Исправленный корневой сервис не может связываться на устройствах OnePlus                  
 
-### v26.2
+###                     v26.2                   
 
-- [MagiskBoot] Support extracting boot image from `payload.bin`
-- [MagiskBoot] Support cpio files containing character files
-- [MagiskBoot] Support listing cpio content
-- [MagiskBoot] Directly handle AVB 1.0 signing and verification without going through Java implementation
-- [Daemon] Make daemon socket a fixed path in MAGISKTMP
-- [resetprop] Support printing property context
-- [resetprop] Support only printing persistent properties from storage
-- [resetprop] Properly support setting persistent properties bypassing property_service
-- [MagiskSU] Support `-g` and `-G` options
-- [MagiskSU] Support switching mount namespace to PID with `-t`
+- [MagiskBoot]                    Поддержка извлечения изображения загрузки из                    `payload.bin`
+- [MagiskBoot]                    Поддержка cpio-файлов, содержащих файлы символов                  
+- [MagiskBoot]                    Поддержка размещения cpio контента                  
+- [MagiskBoot]                     Прямая работа с подписью и проверкой AVB 1.0 без прохождения внедрения Java                   
+- [Деймон]                     Сделать розетку ромона фиксированным путем в MAGISKTMP                   
+- [resetprop]       Поддержка контекста свойства печати     
+- [resetprop]       Поддержка только печати стойких свойств от хранения     
+- [resetprop]       Правильно поддерживать настройку постоянных свойств, минуя property_service     
+- [MagiskSU]       Поддержка       `g`       и       `G`       варианты     
+- [MagiskSU]       Поддержка переключения именного пространства для установки на PID с       `-t`
 - [MagiskPolicy] Fix patching extended permissions
 - [MagiskPolicy] Support more syntax for extended permissions
 - [MagiskPolicy] Support printing out the loaded sepolicy rules
